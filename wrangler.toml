@@ -1,0 +1,9 @@
+name = "meetup-discord-notify"
+main = "src/index.ts"
+compatibility_date = "2023-10-27"
+kv_namespaces = [
+  { binding = "MEETUP_GROUPS", id = "53dcc045cb194ba38d87e1e1abefc7a5", preview_id = "b110cf5f68984840b9ae533048048152" }
+]
+
+[triggers]
+crons = [ "0 15 1 * *" ]
